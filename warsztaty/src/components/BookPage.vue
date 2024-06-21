@@ -9,7 +9,7 @@
         <v-card elevation="4" hover>
           <v-card-title>{{ book.title }}</v-card-title>
           <v-card-actions>
-            <v-btn color="secondary" elevated @click="viewDetails(book.id)">Szczegóły</v-btn>
+            <v-btn color="secondary" elevated @click="viewDetails(book.id)" class="details">Szczegóły</v-btn>
             <v-btn @click="confirmDelete(book)">
               <v-icon size="x-large">mdi-delete</v-icon>
             </v-btn>
